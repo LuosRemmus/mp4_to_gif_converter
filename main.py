@@ -69,4 +69,5 @@ def telegram_bot(token):
     bot.polling()
 
 
-telegram_bot("INPUT YOUR TELEGRAM BOT'S TOKEN HERE")
+if __name__ == '__main__':
+    telegram_bot("INPUT YOUR TELEGRAM BOT'S TOKEN HERE")
