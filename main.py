@@ -1,5 +1,4 @@
 import time
-
 import imageio
 import os, sys
 from telebot import TeleBot
@@ -70,4 +69,4 @@ def telegram_bot(token):
     bot.polling()
 
 
-telegram_bot('5377279394:AAEo7i23FpDgPeI9FizGOhMUo24e0m_MMBU')
+telegram_bot("INPUT YOUR TELEGRAM BOT'S TOKEN HERE")
